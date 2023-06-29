@@ -8,6 +8,10 @@ contract BarSplitter is PaymentSplitter {
     PaymentSplitter(payees, shares_)
   {}
 
+  function bar() external pure returns (string memory) {
+    return "bar";
+  }
+
   /**
    * @notice Allow eth transfers to this contract
    */
