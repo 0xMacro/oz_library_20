@@ -2,6 +2,7 @@
 pragma solidity ^0.8.13;
 
 import { PaymentSplitter } from "openzeppelin-contracts/finance/PaymentSplitter.sol";
+import "forge-std/Base.sol";
 
 contract BarSplitter is PaymentSplitter {
   constructor(address[] memory payees, uint256[] memory shares_)
