@@ -3,8 +3,7 @@ src = "src"
 out = "out"
 libs = ["lib"]
 remappings = [
-    "openzeppelin-contracts/contracts=lib/openzeppelin-contracts/contracts/",
-    "forge-std/=lib/forge-std/src/x"
+    "openzeppelin-latest/=lib/openzeppelin-latest/contracts/"
 ]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
